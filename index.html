@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Predefined Embedded Projects</title>
+    <title>More games from Andygames!!!</title>
     <style>
         body {
             margin: 0;
@@ -62,21 +62,46 @@
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        #go-back-button {
+            background-color: #f0a500;
+            color: black;
+            border-radius: 12px;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #go-back-button:hover {
+            background-color: #d08f00;
+            transform: scale(1.1);
+        }
+
+        #go-back-button:active {
+            background-color: #b07a00;
+            transform: scale(0.95);
         }
     </style>
 </head>
 <body>
     <div class="button-container">
-        <button onclick="loadEmbed('1097493338')">Open Project 1</button>
-        <button onclick="loadEmbed('1111248213')">Open Project 2</button>
-        <button onclick="loadEmbed('922949387')">Open Project 3</button>
-        <button onclick="loadEmbed('1095415992')">Open Project 4</button>
-        <button onclick="loadEmbed('1010101010')">Open Project 5</button>
-        <button onclick="loadEmbed('1234567890')">Open Project 6</button>
+        <button onclick="loadEmbed('1097493338')">play hangouts!!!</button>
+        <button onclick="loadEmbed('1111248213')">play catch the mouse</button>
+        <button onclick="loadEmbed('922949387')">play 3D maze!!!</button>
+        <button onclick="loadEmbed('1095415992')">Play guess the hidden number!!!</button>
+        <button onclick="loadEmbed('1010101010')">play</button>
+        <button onclick="loadEmbed('1234567890')">play</button>
     </div>
 
     <div id="embed-container">
         <embed id="embed" src="" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></embed>
+    </div>
+
+    <div>
+        <button id="go-back-button" onclick="window.location.href='https://nobodyknowswhoiaminthisworld.github.io/andygames.github.io/'">Go Back</button>
     </div>
 
     <script>
